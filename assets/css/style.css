@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+ justify-content: center;
+}
+
+header h1 {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  padding: 7px;
+}
+
+.heroimagen {
+  background-image: url(../img/bg-header.jpg);
+  width: 100%;
+  height: 727px;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: cover;
+
+}
+
+.intro {
+  background-color: black;
+  width: 1280px;
+}
+
+.contenidointro {
+  display: flex;
+  justify-content: center;
+  gap: 106px;
+}
+
+.contenidointro p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  width: 475px;
+  padding: 76px 0px
+}
+
+.imgintro {
+  background-image: url(../img/iguana-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 399px;
+  height: 237px;
+  margin-top: 45px;
+}
+
+.caracteristicas {
+  display: flex;
+  flex-direction: column;
+  background-color: #1E1A13;
+  width: 1280px;
+  height: 348px;
+  align-items: center;
+}
+
+.caracteristicas h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+
+.boxes {
+display: flex;
+width: 80%;
+gap: 200px;
+justify-content: center;
+}
+
+.box {
+ color: #fff;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ align-items: center;
+}
+
+.box p {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 348px;
+  gap: 16px;
+}
+
+.galeria .img1 {
+  background-image: url(../img/iguana-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 316px;
+  height: 202px;
+}
+
+.galeria .img2 {
+  background-image: url(../img/iguana-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 316px;
+  height: 202px;
+}
+
+.galeria .img3 {
+  background-image: url(../img/iguana-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 316px;
+  height: 202px;
+}
+
+
+footer {
+  display: flex;
+  background-color: #1E1A13;
+  width: 1280px;
+  height: 100px;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.footercontent a {
+  color: #fff;
+}
